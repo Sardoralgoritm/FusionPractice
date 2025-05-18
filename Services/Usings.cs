@@ -1,0 +1,9 @@
+﻿global using ActualLab.Async;
+global using ActualLab.Fusion.EntityFramework;
+global using ActualLab.Fusion;
+global using System.Reactive;
+global using ActualLab.Fusion.Authentication.Services;
+global using ActualLab.Fusion.EntityFramework.Operations;
+global using ActualLab.Fusion.Extensions.Services;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.DependencyInjection;

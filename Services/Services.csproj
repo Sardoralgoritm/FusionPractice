@@ -1,9 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <FusionVersion>9.6.2</FusionVersion>
+        <RootNamespace>Intentory.Services</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Shared\Shared.csproj" />
+		<PackageReference Include="ActualLab.Fusion.Blazor.Authentication" Version="$(FusionVersion)" />
+		<PackageReference Include="ActualLab.Fusion.Ext.Services" Version="$(FusionVersion)" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Data\Configurations\" />
+    </ItemGroup>
 
 </Project>

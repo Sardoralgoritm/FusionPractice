@@ -1,0 +1,9 @@
+﻿global using System.ComponentModel.DataAnnotations.Schema;
+global using System.ComponentModel.DataAnnotations;
+global using System.Runtime.Serialization;
+global using MemoryPack;
+global using ActualLab.Fusion;
+global using ActualLab.Fusion.Blazor;
+global using ActualLab.CommandR.Configuration;
+global using System.Reactive;
+global using ActualLab.Async;
